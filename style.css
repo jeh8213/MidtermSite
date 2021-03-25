@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Chango);
+
+body {
+  background-color: #9dffb0;
+  font-family: 'Chango', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  width: 200vh;
+}
+
+#mainContainer {
+  display: grid;
+  height: 400vh;
+  grid-template-columns: 20vw 20vw 30vw 15vw 10vw;
+  grid-template-rows: 10vh 20vh 20vh 20vh 30vh 20vh 10vh 10vh 5vh 10vh 15vh 7.5vh 7.5vh 26vh 25vh 15vh 5vh 5vh 10vh;
+}
+
+
+#logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff780;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  transform: skewY(5deg);
+}
+
+#logo > img {
+  width: 100%;
+}
+
+#welcome {
+  margin-left: 50vh;
+  margin-top: 10vh;
+  background-color: #fff780;
+  color: #c48d3f;
+  text-shadow: 10px 10px #fffffa;
+  display: flex;
+  font-size: 11vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 370%;
+  height: 200%;
+  grid-column: 1/ span 8;
+  grid-row: 4;
+  transform: skewY(5deg);
+}
+
+#midContainer {
+  background-color: #81f1f7;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60vh;
+  grid-column: 1;
+  width: 200vh;
+  height: 200vh;
+  transform: skewY(5deg);
+}
+
+#isabelle {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  position: relative;
+  bottom: 550px;
+}
+
+#isabelle > img {
+  position: relative;
+  left: 300px;
+  width:20%;
+  object-fit: cover;
+  display:block;
+
+}
+
+#isabelleText {
+  margin-top: 30vh;
+  padding: 50px;
+  background-color: #fff780;
+  color: #c48d3f;
+  text-shadow: 10px 10px #fffffa;
+  letter-spacing: 15px;
+  display: flex;
+  font-size: 10vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  grid-column: 1;
+  grid-row: 4;
+  transform: skewY(5deg);
+  text-decoration: none;
+}
+
+#midContainerTwo {
+  background-color: #81f1f7;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140vh;
+  grid-column: 1;
+  width: 200vh;
+  height: 200vh;
+  transform: skewY(5deg);
+}
+
+#midContainerThree {
+  background-color: #fff780;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140vh;
+  grid-column: 1;
+  width: 200vh;
+  height: 100vh;
+  transform: skewY(5deg);
+}
+
+#tomNook {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  position: relative;
+  bottom: 500px;
+  right: 220px;
+}
+
+#tomNook > img {
+  position: relative;
+  left: 300px;
+  width:30%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+#tomNookText {
+  margin-top: 15vh;
+  padding: 50px;
+  background-color: #fff780;
+  color: #c48d3f;
+  text-shadow: 10px 10px #fffffa;
+  letter-spacing: 15px;
+  display: flex;
+  font-size: 10vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 100%;
+  grid-column: 1;
+  transform: skewY(5deg);
+  text-decoration: none;
+}
+
+
+#bottomContainer {
+  position: relative;
+  background-color: #fffffa;
+  margin-top: 220vh;
+  width: 200vh;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1;
+  transform: skewY(5deg);
+}
+
+#isabelleText:hover {
+  color: #fff780;
+  background-color: #fffffa;
+  text-shadow: 10px 10px #c48d3f;
+}
+
+#tomNookText:hover {
+  color: #fff780;
+  background-color: #fffffa;
+  text-shadow: 10px 10px #c48d3f;
+}
+
+#logo:hover {
+  background-color: #fffffa;
+}
+
+#ACNHlink {
+  color: #81f1f7;
+  text-shadow: 10px 10px #fff563;
+  display: flex;
+  font-size: 11vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 420%;
+  grid-column: 1/ span 8;
+  grid-row: 4;
+  transform: skewY(1deg);
+  text-decoration: none;
+}
+
+#ACNHlink:hover {
+  color: #fff563;
+  text-shadow: 10px 10px #81f1f7;
+}
+
+#description {
+  padding: 25px;
+  color: #362611;
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transform: skewY(1deg);
+  line-height: 70px;
+}
